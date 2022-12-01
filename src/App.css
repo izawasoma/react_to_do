@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  font-size: 1.6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  height: 6rem;
+  padding: 0 5%;
+  width: 100%;
+  background-color: rgb(136, 0, 171);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+header > h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   color: white;
+  font-size: 2rem;
+}
+header > p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin-left: 3rem;
+}
+header > p > a {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  font-size: 1.6rem;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  padding: 0 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card_wrapper {
+  margin: 0;
+  padding: 0;
 }
+
+.card {
+  width: 50rem;
+  height: 5rem;
+  list-style: none;
+  border-radius: 0.5rem;
+  background-color: rgb(188, 255, 255);
+  margin: 0.7rem 0;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}/*# sourceMappingURL=App.css.map */
